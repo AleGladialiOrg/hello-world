@@ -20,7 +20,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         logger.info("Hello endpoint was hit!");
-        return "Hello World from Kubernetes";
+        return "Hello World from Kubernetes with healthz";
     }
 
 }
